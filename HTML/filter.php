@@ -63,7 +63,7 @@
 
                     <div class="scrollable col-sm-12 col-md-12 col-lg-3">
                         <aside class="sidebar sidebar-layou2">
-                            <form action="" class="widget__form-search" method="">
+                            <form action="" class="widget__form-search" method="post">
 
                                 <div class="widget widget-filter">
                                     <h5 class="widget__title">Price Range</h5>
@@ -76,10 +76,10 @@
                                         <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0"></span>
                                     </div>
                                     <div>
-                                        <input type="hidden" id="price_range" value="" name="price_range">
+                                        <input type="hidden" id="price_range" value="1-5000" name="price_range">
                                         <label for="">Price:</label>
                                         <input style="border: 0" type="text" readonly id="amount"
-                                            value=" $1 - $5000">
+                                            value="1-5000">
                                     </div>
 
                                 </div>
@@ -294,7 +294,7 @@
                                             </label>
                                         </div>
                                        
-                                            
+                                    <input type="submit" value="Filter">
                                     </div>
                                 </div>
                             </form>
